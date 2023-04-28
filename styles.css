@@ -1,0 +1,174 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    align-items: baseline;
+    padding: 15px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    padding: 15px;
+    padding-top: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo{
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#hero{
+    display:flex;
+    background-color: #1f2937;
+    color: white;
+    padding: 15px;
+    gap:50px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.hero-text{
+    width: 400px;
+    height: 400px;
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    justify-content: center;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.sub-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.placeholder {
+    background-color: #a9a8a8ee;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    padding: 100px;
+}
+
+button{
+    padding: 5px;
+    width: 100px;
+    background-color: #3882f6;
+    border-radius: 25px;
+    box-shadow: none;
+}
+
+footer{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.information{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.information-header{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    align-self: center;
+    padding: 25px;
+}
+
+.information-images{
+    display:flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.image{
+    border: solid 2px rgb(105, 145, 238);
+    border-radius: 25px;
+    height:150px;
+    width: 150px;
+}
+
+
+.subtexts{
+    display:flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+.information-sub-text{
+    height: 150px;
+    width: 150px;
+    font-size: 18px;
+    color:#83858a;
+    text-align: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 75px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style:italic;
+    font-weight: lighter;
+    color:#1F2937;
+}
+
+.quote-source{
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.call-to-action{
+    background-color: #3882f6;
+    display:flex;
+    margin:75px;
+    color:white;
+    padding: 50px;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+
+.call-header{
+
+}
+
+.call-text{
+    display:flex;
+    flex-direction: column;
+}
+
+button.signup{
+    color: white;
+    border:white solid 2px;
+}
