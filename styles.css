@@ -6,7 +6,7 @@
 header{
     display: flex;
     background-color: #e35fd7;
-    color: white;
+    color: black;
     align-items: baseline;
     padding: 15px;
 }
