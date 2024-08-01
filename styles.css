@@ -5,7 +5,7 @@
 
 header{
     display: flex;
-    background-color: #1f2937;
+    background-color: #e35fd7;
     color: white;
     align-items: baseline;
     padding: 15px;
@@ -41,7 +41,7 @@ a{
 
 #hero{
     display:flex;
-    background-color: #1f2937;
+    background-color: #e35fd7;
     color: white;
     gap:50px;
     justify-content:space-evenly;
