@@ -83,6 +83,7 @@ button{
     border-radius: 25px;
     box-shadow: none;
     color: white;
+    border:white solid 2px;
 }
 
 footer{
