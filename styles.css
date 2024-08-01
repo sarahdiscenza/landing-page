@@ -174,6 +174,7 @@ footer{
 .call-text{
     display:flex;
     flex-direction: column;
+    color: black;
 }
 
 button.signup{
