@@ -10,6 +10,10 @@ header{
     padding: 15px;
 }
 
+body{
+    width: 100%;
+}
+
 ul{
     list-style: none;
     display: flex;
