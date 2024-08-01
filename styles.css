@@ -42,7 +42,6 @@ a{
 #hero{
     display:flex;
     background-color: #dd7cd4;
-    color: black;
     gap:50px;
     justify-content:space-evenly;
     align-items: center;
