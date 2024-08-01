@@ -114,7 +114,8 @@ footer{
 }
 
 .image{
-    border: solid 2px rgb(105, 145, 238);
+    border: solid 2px; 
+    border-color: #dd7cd4;
     border-radius: 25px;
     height:150px;
     width: 150px;
