@@ -1,14 +1,17 @@
 *{
     font-family: "Tahoma";
     box-sizing: border-box;
+    letter-spacing: 1;
 }
 
 header{
     display: flex;
-    background-color: #dd7cd4;
-    color: black;
-    align-items: baseline;
-    padding: 15px;
+    background-image: linear-gradient(#91508a, black);
+    color: white;
+    align-items: center;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    border-bottom: 4px solid black;
 }
 
 body{
@@ -22,32 +25,37 @@ ul{
     display: flex;
 }
 
-li{
-    padding: 15px;
-    padding-top: 0px;
+li {
+    padding: 5px;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: #dd7cd4;
     font-size: 18px;
     font-weight: 800;
+}
+
+a:hover {
+    color: ;
 }
 
 .logo{
     margin-right: auto;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 48px;
+    padding: 10px;
 }
 
 #hero{
     display:flex;
-    background-color: #dd7cd4;
-    gap:50px;
+    background-image: url(https://private-user-images.githubusercontent.com/131552859/358868253-97bd5111-ce72-4a0a-996c-ed655ec4b442.jpeg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjM5MjgyMTMsIm5iZiI6MTcyMzkyNzkxMywicGF0aCI6Ii8xMzE1NTI4NTkvMzU4ODY4MjUzLTk3YmQ1MTExLWNlNzItNGEwYS05OTZjLWVkNjU1ZWM0YjQ0Mi5qcGVnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDgxNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA4MTdUMjA1MTUzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZGU5NGQ5MTE5ZDYxNjlhOGU0ZjEyZGY1ZTIxZDUyZWM5NTcwY2FiNTM1ODU3ZjExYWIyOWMzZWQwNGU0NDAzMSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.qQkBIh0GYTeLbJiEmuzmwzZfRD9gGquN-DmuYykckWU);
+    gap: 50px;
     justify-content:space-evenly;
     align-items: center;
     width: 100%;
     margin: 0;
+    padding-bottom: 15px;
 }
 
 .hero-text{
@@ -57,14 +65,22 @@ a{
     flex-direction: column;
     gap: 15px;
     justify-content: center;
+    background-color: rgba(0, 0, 0, .7);
+    margin: 15px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .hero-main-text{
-    font-size: 48px;
+    padding-left: 15px;
+    font-size: 36px;
     font-weight: 800;
 }
 
 .sub-text{
+    padding-left: 15px;
     font-size: 18px;
     color: black;
 }
@@ -86,6 +102,10 @@ button{
     box-shadow: none;
     color: white;
     border:white solid 2px;
+}
+
+.signup {
+    margin-left: 15px;
 }
 
 footer{
@@ -168,10 +188,6 @@ footer{
     padding: 50px;
     justify-content: space-evenly;
     border-radius: 15px;
-}
-
-.call-header{
-
 }
 
 .call-text{
